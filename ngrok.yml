@@ -1,0 +1,9 @@
+version: 2
+tunnels:
+  sonar:
+    addr: 80  # Cambia de "http://sonar:9000" al puerto 80
+    proto: http
+    schemes:
+      - https
+      - http
+    domain: unduly-quick-insect.ngrok-free.app
